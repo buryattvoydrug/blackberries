@@ -1,0 +1,91 @@
+@font-face {
+  font-family: 'Uni Sans';
+  src: local("Uni Sans Heavy Caps"), local("UniSansHeavyCaps"), url("fonts/unisansheavycaps.woff2") format("woff2"), url("fonts/unisansheavycaps.woff") format("woff"), url("fonts/unisansheavycaps.ttf") format("truetype");
+  font-weight: 900;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Uni Sans';
+  src: local("Uni Sans Heavy Caps Italic"), local("UniSansHeavyCapsItalic"), url("fonts/unisansheavycapsitalic.woff2") format("woff2"), url("fonts/unisansheavycapsitalic.woff") format("woff"), url("fonts/unisansheavycapsitalic.ttf") format("truetype");
+  font-weight: 900;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'archivomedium';
+  src: url("fonts/archivo-medium-webfont.woff2") format("woff2"), url("fonts/archivo-medium-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'archivoregular';
+  src: url("fonts/archivo-regular-webfont.woff2") format("woff2"), url("fonts/archivo-regular-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'archivobold';
+  src: url("fonts/archivo-bold-webfont.woff2") format("woff2"), url("fonts/archivo-bold-webfont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+.wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+}
+
+button, input {
+  background: none;
+  border: none;
+}
+
+button:focus, input:focus {
+  outline: none;
+}
+
+.container {
+  width: 1360px;
+  margin: 0 auto;
+}
+
+.page-container {
+  width: 1360px;
+  margin: 200px auto 0;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 0 auto;
+          flex: 1 0 auto;
+}
+
+@media (min-width: 1280px) and (max-width: 1439px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+@media screen and (max-width: 1279px) {
+  .container {
+    width: 90%;
+  }
+}

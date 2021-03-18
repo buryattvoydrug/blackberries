@@ -1,0 +1,48 @@
+@font-face {
+  font-family: 'Uni Sans';
+  src: local('Uni Sans Heavy Caps'), local('UniSansHeavyCaps'), url('fonts/unisansheavycaps.woff2') format('woff2'), url('fonts/unisansheavycaps.woff') format('woff'), url('fonts/unisansheavycaps.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Uni Sans';
+  src: local('Uni Sans Heavy Caps Italic'), local('UniSansHeavyCapsItalic'), url('fonts/unisansheavycapsitalic.woff2') format('woff2'), url('fonts/unisansheavycapsitalic.woff') format('woff'), url('fonts/unisansheavycapsitalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+
+
+@font-face {
+    font-family: 'archivomedium';
+    src: url('fonts/archivo-medium-webfont.woff2') format('woff2'),
+         url('fonts/archivo-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'archivoregular';
+    src: url('fonts/archivo-regular-webfont.woff2') format('woff2'),
+         url('fonts/archivo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+
+
+@font-face {
+    font-family: 'archivobold';
+    src: url('fonts/archivo-bold-webfont.woff2') format('woff2'),
+         url('fonts/archivo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
