@@ -1,4 +1,7 @@
 import React from 'react'
+import {isMobile} from "react-device-detect"
+import Slider from '../../Slider'
+import ToTopButton from '../../ToTopButton'
 
 import './ItemPage.css'
 
@@ -9,6 +12,7 @@ function ItemPage() {
         <h1 className="item__title">Nike</h1>
         <h2 className="item__subtitle">Air Zoom Pegasus 37 Eliud Kipchoge</h2>
         <span className="price">RUB 9990</span>
+        {isMobile ? <Slider/> : null}
         <div className="size-block">
           <h4 className="size-block__title">Size</h4>
           <div className="sizes">
@@ -34,16 +38,7 @@ function ItemPage() {
           </p>
         </div>
       </div>
-      <div className="item-images">
-        <div className="item-slider">
-          <img src="images/items/image1.jpg" alt=""/>
-          <img src="images/items/image2.jpg" alt=""/>
-          <img src="images/items/image3.jpg" alt=""/>
-        </div>
-        <div className="arrow">
-          <img src="images/arrow-button.svg" alt=""/>
-        </div>
-      </div>
+      {isMobile ? <ToTopButton/>:<Slider/>}
     </section>
   )
 }

@@ -31,12 +31,17 @@ button,input{
   flex: 1 0 auto;
 }
 @media (min-width:1280px) and (max-width:1439px){
+  .page-container,
   .container{
     width: 1170px;
   }
 }
 @media screen and (max-width:1279px){
+  .page-container,
   .container{
     width: 90%;
+  }
+  .page-container{
+    margin: 150px auto 0;
   }
 }

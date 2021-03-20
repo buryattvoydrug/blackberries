@@ -4,6 +4,7 @@ import Header from './components/Header';
 import Sales from './components/Sales';
 import Main from './components/pages/Main/Main';
 import ItemPage from './components/pages/ItemPage/ItemPage';
+import CartPage from './components/pages/CartPage/CartPage';
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         <Header/>
       </div>
       <div className="page-container">
-        <ItemPage/>
+        {/* <ItemPage/> */}
+        <CartPage/>
       </div>
       <Sales/>
       <Footer/>
