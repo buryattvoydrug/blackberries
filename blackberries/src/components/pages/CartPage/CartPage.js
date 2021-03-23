@@ -7,9 +7,9 @@ function CartPage() {
     <section className='cart-page'>
       <div className="cart-block">
         <h1 className="cart__title">Cart</h1>
-        <div className="shipping__checkbox">
-          <span>Shipping</span>
-          <img src="" alt=""/>
+        <div className="shipping-checkbox">
+          <input id="ship" className="shipping__checkbox" type="checkbox"  />
+          <label for="ship">Shipping</label>
         </div>
         <div className="cart-items">
           <div className="cart__item">
@@ -20,10 +20,10 @@ function CartPage() {
               <h3 className="item__title">Nike</h3>
               <h4 className="item__subtitle">Air Zoom Pegasus 37 Eliud Kipchoge</h4>
               <div className="size">
-                Size <strong>42</strong>
+                <strong>Size</strong>42
               </div>
               <div className="quality">
-                Quality
+                <strong>Quality</strong>
                   <button className="quality__button">
                     <img src="images/minus.svg" alt=""/>
                   </button>
@@ -94,6 +94,10 @@ function CartPage() {
           <img src="images/checkout.svg" alt=""/>
           <span>Checkout</span>
         </button>
+      </div>
+      <div className="empty-cart">
+        <h1 className="empty-cart__title">There are no items in your cart.</h1>
+        <img src="images/shopping-cart.svg" alt="" className="empty-cart__image"/>
       </div>
     </section>
   )
