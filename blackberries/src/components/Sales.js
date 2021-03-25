@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './Sales.css'
+import '../scss/components/Sales.scss'
 
 function Sales() {
   return (

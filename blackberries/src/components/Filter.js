@@ -1,7 +1,7 @@
 import React from 'react'
 import {DropdownButton, Dropdown,ButtonGroup} from 'react-bootstrap'
 
-import './Filter.css'
+import '../scss/components/Filter.scss'
 
 function Filter() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './CartPage.css'
+import '../../scss/components/pages/CartPage.scss'
 
 function CartPage() {
   return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import {isMobile} from "react-device-detect"
 
-import './Slider.css'
+import '../scss/components/Slider.scss'
 
 function Slider() {
   return (

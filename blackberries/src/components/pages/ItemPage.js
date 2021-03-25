@@ -1,9 +1,9 @@
 import React from 'react'
 import {isMobile} from "react-device-detect"
-import Slider from '../../Slider'
-import ToTopButton from '../../ToTopButton'
+import Slider from '../Slider'
+import ToTopButton from '../ToTopButton'
 
-import './ItemPage.css'
+import '../../scss/components/pages/ItemPage.scss'
 
 function ItemPage() {
   return (

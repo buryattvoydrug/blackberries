@@ -1,11 +1,11 @@
-import './App.css';
+import './scss/App.scss';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import Sales from './components/Sales';
-import Main from './components/pages/Main/Main';
-import ItemPage from './components/pages/ItemPage/ItemPage';
-import CartPage from './components/pages/CartPage/CartPage';
-import FavoritesPage from './components/pages/Favorites/FavoritesPage';
+import Main from './components/pages/Main';
+import ItemPage from './components/pages/ItemPage';
+import CartPage from './components/pages/CartPage';
+import FavoritesPage from './components/pages/FavoritesPage';
 
 function App() {
   return (

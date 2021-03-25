@@ -1,8 +1,8 @@
 import React from 'react'
-import Filter from '../../Filter'
-import ToTopButton from '../../ToTopButton'
+import Filter from '../Filter'
+import ToTopButton from '../ToTopButton'
 
-import './Main.css'
+import '../../scss/components/pages/Main.scss'
 
 function Main() {
   return (

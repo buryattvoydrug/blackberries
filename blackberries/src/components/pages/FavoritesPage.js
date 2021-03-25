@@ -1,7 +1,7 @@
 import React from 'react'
-import ToTopButton from '../../ToTopButton'
+import ToTopButton from '../ToTopButton'
 
-import './FavoritesPage.css'
+import '../../scss/components/pages/FavoritesPage.scss'
 
 function FavoritesPage() {
   return (

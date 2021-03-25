@@ -1,7 +1,7 @@
 import React from 'react'
 import {isMobile} from 'react-device-detect'
 
-import './Header.css'
+import '../scss/components/Header.scss'
 
 function Header() {
   return (

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import './ToTopButton.css'
+import '../scss/components/ToTopButton.scss'
 
 function ToTopButton() {
   return (
