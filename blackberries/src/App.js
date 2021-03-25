@@ -5,6 +5,7 @@ import Sales from './components/Sales';
 import Main from './components/pages/Main/Main';
 import ItemPage from './components/pages/ItemPage/ItemPage';
 import CartPage from './components/pages/CartPage/CartPage';
+import FavoritesPage from './components/pages/Favorites/FavoritesPage';
 
 function App() {
   return (
@@ -13,8 +14,10 @@ function App() {
         <Header/>
       </div>
       <div className="page-container">
-        {/* <ItemPage/> */}
-        <CartPage/>
+        {/* <ItemPage/>
+        <CartPage/> */}
+        {/* <FavoritesPage/> */}
+        <Main/>
       </div>
       <Sales/>
       <Footer/>

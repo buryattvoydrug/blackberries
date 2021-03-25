@@ -4,4 +4,6 @@
   height: 60px;
   -ms-flex-item-align: end;
       align-self: flex-end;
+  float: right;
+  margin-bottom: 50px;
 }
